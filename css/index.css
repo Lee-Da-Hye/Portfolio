@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+@font-face {
+    font-family: "Ubuntu";
+    font-weight: 500;
+    src: url("/Ubuntu/Ubuntu-Italic.ttf") format("truetype");
+  }
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+   
 }
 section{
     max-width: 1000px;
