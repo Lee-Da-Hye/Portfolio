@@ -1,0 +1,80 @@
+
+.skill > h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+  }
+.skill-progress{
+    padding-top: 30px;
+     display: grid;
+    width: 200px;
+    font-size: 13px;
+    grid: "html"
+          "css"
+          "js"
+          "illust"
+          "photoshop" / auto;
+    grid-template-columns: 100%;
+    margin: auto;
+}
+.pro{
+    border: 1px solid #000;
+    border-radius: 3px;
+    background:#efefef;
+    margin: 5px 0;
+}
+.level{
+    height: 30px;
+    animation-name: ani;
+    animation-duration: 5s;
+}
+.progress-level1{
+    background:gray;
+    width: 90%;   
+}
+.progress-level2{
+    background:gray;
+    width: 90%;   
+}
+.progress-level3{
+    background:gray;
+    width: 60%;  
+}
+.progress-level4{
+    background:gray;
+    width: 50%;   
+}
+.progress-level5{
+    background:gray;
+    width: 50%; 
+}
+
+@keyframes ani{
+    0% {
+        width: 0;
+    }
+}
+.progress1{
+    grid-area: html;
+}
+.progress2{
+    grid-area: css;
+}
+.progress3{
+    grid-area: js;
+}
+.progress4{
+    grid-area: illust;
+}
+.progress5{
+    grid-area: photoshop;
+}
+
+@media screen and (max-width: 501px) {
+    .skill > h2 {
+        font-size: 20px;
+    }
+    .skill-progress {
+        padding-top: 17px;
+    }
+}

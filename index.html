@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/skill.css">
+</head>
+<body>
+    <!-- <header id="header">
+        <h1>LEE</h1>
+    </header> -->
+    <section>
+        <div class="container">
+            <div class="header hidden">
+                <button class="goPrevPage"><i class='bx bx-arrow-back'></i></button>
+            </div>
+            <!-- kiosk frame -svg- -->
+            <div>
+                <div class="kio-frame">
+                    <svg class="kio"id="name"
+                     xmlns="http://www.w3.org/2000/svg" width="1353" height="750"  
+                     viewBox="0 0 1353 2082">
+                        <defs>
+                          <style>
+                            .cls-1 {
+                              fill: gray;
+                            }
+                      
+                            .cls-1, .cls-2, .cls-3, .cls-4 {
+                              fill-rule: evenodd;
+                            }
+                            .cls-2,.cls-3{
+                                fill:#efefef;
+                            }
+                            .cls-4 {
+                              stroke: #000;
+                              stroke-width: 1px;
+                              fill: #fff;
+                            }
+                          </style>
+                        </defs>
+                        <path class="cls-1" d="M7,57S24.732,0,64,0H1268s75,5.738,75,75V2077H2ZM159,231H1197V1761H159V231Z"/>
+                        <path class="cls-2" d="M7,2027v53H1341v-55Z"/>
+                        <path class="cls-3" d="M4.033,85.033s10.15-76,76-76h1182s77,6.732,77,77v1876H4.033v-1877ZM159,228H1200V1761H159V228Z"/>
+                        <path class="cls-4" d="M568,73h24v87h39v19H568V73Z"/>
+                        <path class="cls-4" d="M644,73h58V90H666v24h36v18H666v30h39v19H646Zm80,0h58V90H746v24h36v18H746v30h39v19H726Z"/>
+                    </svg>
+                </div>
+            </div>
+
+            <!-- menu -->
+            <div>
+                <div class="menu-wrap">
+                    <h2>Kiosk Menu</h2>
+                    <div class="menu">
+                        <button class="content">
+                            <img src="./images/aboutme.png" alt="">
+                            <span>Content me</span>
+                        </button>
+                        <button class="works">
+                            <img src="./images/working.png" alt="">
+                            <span>Works</span>
+                        </button>
+                        <button class="skill">
+                            <img src="./images/skill.png" alt="">
+                            <span>Skill</span>
+                        </button>
+                        <button class="contact ">
+                            <img src="./images/communicate.png" alt="">
+                            <span>Contact</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="content-wrap marginAuto">
+                <div class="content hidden">
+                    <!-- about me -->
+                    <div class="aboutMe">
+                        <img src="./images/dahye.jpg" alt="">
+                        <ul class="aboutText">
+                            <li><span>Name:</span> 이다혜</li>
+                            <li><span>Birth:</span> 1996.07.09</li>
+                            <li><span>E-mail:</span> dlekgp6521@gmail.com</li>
+                            <li><span>Education</span></li>
+                            <li>-웹퍼블리셔 UI/UX 프론트엔드 양성과정 수료</li>
+                            <li>-코리아IT아카데미 프론트엔드 과정 수료</li>
+                            <li>좋아하는 것도 많고 배우고 싶은 것도 많은 밝고 긍정적인 신입 웹 퍼블리셔 이다혜입니다.</li>
+                            <!-- <li>lorem</li>
+                            <li>lorem</li> -->
+                        </ul>
+                    </div>
+                </div>
+                <!-- skill -->
+                <div class="skill hidden">
+                    <h2>My Skills</h2>
+                    <div class="skill-progress ">
+                        <div class="progress1">
+                            <span>HTML</span>
+                            <div class="pro">
+                                <div class="progress-level1 level"></div>
+                            </div>
+                        </div>
+                        <div class="progress2">
+                            <span>CSS</span>
+                            <div class="pro">
+                                <div class="progress-level2 level"></div>
+                            </div>
+                
+                        </div>
+                        <div  class="progress3">
+                            <span>Javascript</span>
+                            <div class="pro">
+                                <div class="progress-level3 level"></div>
+                            </div>
+                
+                
+                        </div>
+                        <div class="progress4">
+                            <span>Illustrator</span>
+                            <div class="pro">
+                                <div class="progress-level4 level"></div>
+                            </div>
+                
+                
+                        </div>
+                        <div class="progress5">
+                            <span>PhotoShop</span>
+                            <div class="pro">
+                                <div class="progress-level5 level"></div>
+                            </div>
+                
+                    </div>
+                    </div>
+                </div>
+                <!-- works -->
+                <div class="works hidden">
+                        <img src="" alt="">
+                </div>
+
+                <!-- contact -->
+                <div class="contact hidden">
+                    <div class="all">
+                            <div class="form-box">
+                                <form class="fContact" id="fContact" name="fContact">
+                                    <input type="hidden" name="process" value="contact" />
+                                    <input type="hidden" name="act" value="receipt" />
+                                    <input type="hidden" name="subject" value="문의드립니다." />
+                                    <input type="hidden" name="phonenumber1" value="000" />
+                                    <input type="hidden" name="phonenumber2" value="0000" />
+                                    <input type="hidden" name="phonenumber3" value="0000" />
+                                    <dl>
+                                        <dt>Name</dt>
+                                        <dd>
+                                            <input type="text" id="writer" name="writer" class="required" title="고객명을 입력하세요." />
+                                        </dd>
+                                        <dt>E-Mail</dt>
+                                        <dd>
+                                            <input type="text" id="email" name="email" class="required" title="이메일을 입력하세요." />
+                                        </dd>
+                                        <dt>Message</dt>
+                                        <dd><textarea id="content" name="content" class="required" title="보내실 내용을 작성해 주십시오." placeholder="send me a message"></textarea></dd>
+                                    </dl>
+                                    <div id="commandbar" class="send">
+                                        <button type="button" id="btnSend">Send</button>
+                                    </div>
+                                </form>
+                            </div>
+                
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <p>Copyright&copy;2022 Lee Da Hye All rights reserved. </p>
+        </div>
+        
+    </footer> 
+      <script src="./js/header.js"></script>
+      <script src="./js/goReportPage.js"></script>
+</body>
+</html>

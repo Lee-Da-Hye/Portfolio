@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section{
+    max-width: 1000px;
+    height: 100vh;
+    margin: 50px auto;
+
+}
+.container {
+    width: 100%;
+    position: relative;
+}
+.kio{
+    width: 100%;
+    position: absolute;
+    z-index: -10;
+}
+/* header */
+.header{
+    position: absolute;
+    top: 87px;
+    left: 32%;
+    
+}
+.header > button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.bx-arrow-back:hover{
+    color: #ed8989
+}
+.bx-arrow-back{
+    font-size: 45px;
+    color: rgb(23, 16, 107);
+}
+/* menu */
+.menu-wrap{
+    width: 250px;
+    margin: 10px auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+.menu-wrap > h2{
+    padding-top: 100px;
+    font-size: 35px;
+}
+.menu{
+    padding-top: 30px;
+}
+.menu > button {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#fff;
+    padding-top: 10px;
+    border: 1px solid #000;
+    border-bottom: none;
+}
+.menu > button:nth-child(4){
+    border-bottom: 1px solid #000;
+}
+.menu > button img {
+    width: 20%;
+}
+.menu > button > span{
+    font-size: 25px;
+    padding: 30px;
+}
+
+/* content */
+.content-wrap{
+    padding-top: 15%;
+}
+.content{
+    width: 100%;
+}
+.header{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    justify-content: center;
+}
+.aboutMe > p{
+    width: 200px;
+    height: 200px;
+    background-color: skyblue;
+    margin: auto;
+
+}
+.aboutMe img{
+    width: 85%;
+}
+.aboutText{
+    font-size: 13px;
+    line-height: 1.7;
+    text-align: justify;
+}
+.aboutText span{
+    font-weight: bold;
+    font-size: 15px;
+}
+/* footer */
+.footer{
+      width: 100%;
+      height: 50px;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 15px;
+}
+
+/* hidden */
+.hidden{
+    display: none;
+}
+@media screen and (max-width: 886px) {
+    .header{
+        top: 103%;
+        left: 29%;
+    }
+
+    .content-wrap{
+        padding-top: 14%;
+    }
+}
+@media screen and (max-width: 630px) {
+    .header{
+        top: 103%;
+        left: 20%;
+    }
+    .aboutMe img{
+        width: 65%;
+    }
+
+    .content-wrap{
+        padding-top: 17%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    section{
+        margin: 0 auto;
+    
+    }
+    div.marginAuto {
+        width: 200px;
+        margin: auto;
+    }
+    .menu-wrap{
+        width: 200px;
+    }
+    .menu-wrap > h2{
+        padding-top: 176px;
+        font-size: 25px;
+    }
+    .menu > button img {
+        width: 18%;
+    }
+    .menu > button > span{
+        font-size: 18px;
+        padding: 20px;
+    }
+    .content-wrap{
+        padding-top: 41%;
+    }
+    .aboutText {
+        font-size: 11px;
+        line-height: 1.7;
+        text-align: justify;
+    }
+    .aboutText span {
+        font-weight: bold;
+        font-size: 13px;
+    }
+    .bx-arrow-back{
+        font-size: 20px;
+        color: rgb(23, 16, 107);
+    }
+    .skill > h2 {
+        font-size: 20px;
+    }
+    .skill-progress {
+        padding-top: 17px;
+    }
+}

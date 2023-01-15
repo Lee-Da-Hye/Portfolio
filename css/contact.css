@@ -1,0 +1,88 @@
+
+ .form-box{
+    width: 300px;
+    margin: auto;
+    background: #fff;
+   /*margin: 150px auto 0 auto;*/
+ }
+ .fContact{
+   font-size: 15px;
+   line-height: 40px;
+   list-style: none;
+   color:#333;
+   font-weight: bold;
+ }
+ .fContact  > dl > dd > input{
+   border: none;
+   border-bottom: 1px solid #424242;
+   background: transparent;
+   display: block;
+   resize: none;
+   margin-top: -2.5vh;
+   width: 100%;
+   border-radius: 0;
+   text-align: end;
+   color: #000;
+   font-size: 15px;
+   font-weight: bold;
+   
+ }
+ .fContact > dl > dd > textarea{
+    width: 100%;
+    height: 250px;
+    border: 1px solid #000;
+    font-family:'PoorStory-Regular';
+    font-size: 1vmax;
+ }
+ .fContact > dl > dd > textarea::placeholder{
+   color:#333;
+   text-align: center;
+   padding-top: 110px;
+   font-size: 20px;
+   font-family:'PoiretOne-Regular';
+   
+ }
+ .fContact > dl > dd >input:focus {
+    outline:none;
+   } 
+ .send{
+  text-align: center;
+ }
+ .send > button{
+   background: #efefef;
+   border: none;
+   width: 150px;
+   height: 50px;
+   color: gray;
+   line-height: 0;
+   font-size: 20px;
+   cursor: pointer;
+   font-weight: bold;
+
+   
+ }
+
+ @media screen and (max-width: 501px) {
+  .form-box{
+    width: 200px;
+ }
+ .fContact{
+   font-size: 11px;
+ }
+ .fContact > dl > dd > input {
+  margin-top: -3.5vh;
+  font-size: 11px;
+}
+.fContact > dl > dd > textarea{
+   height: 200px;
+}
+.fContact > dl > dd > textarea::placeholder{
+  padding-top: 90px;
+  font-size: 13px;
+}
+.send > button {
+  width: 92px;
+  height: 30px;
+  font-size: 12px;
+}
+}
