@@ -2,7 +2,6 @@
 .works-item{
     text-align: center;
     width: 100%;
-    margin-top: 30px;
 }
 .works-item > div{
     width: 150px;
@@ -47,6 +46,7 @@
 }
 
 @media screen and (max-width: 480px) {
+
     .pagenation-container{ 
         display: flex;
         position: absolute;
@@ -54,5 +54,23 @@
         top: 102%;
         transform: translateX(-50%);
     
+    }
+    .pagenation li{
+        width: 20px;
+        height: 20px;
+        text-align: center; 
+        border: 1px solid black;
+    }
+    #prev, #next{
+        font-size: 0;
+        background-color: #fff;
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        border: 1px solid #000;
+    }
+    .bx-left-arrow-alt,.bx-right-arrow-alt{
+        padding-top: 4px;
+        font-size: 15px;
     }
 }
