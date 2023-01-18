@@ -7,6 +7,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: #333;
    
 }
 section{
@@ -113,13 +114,22 @@ section{
     font-weight: bold;
     font-size: 15px;
 }
+
 /* footer */
+footer{
+    /*background-color: red;*/
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
 .footer{
       width: 100%;
-      height: 50px;
       margin: 0 auto;
       text-align: center;
       font-size: 15px;
+      position: absolute;
+      bottom: 0;
+
 }
 
 /* hidden */
@@ -155,10 +165,13 @@ section{
         margin: 0 auto;
     
     }
-    div.marginAuto {
-        width: 200px;
-        margin: auto;
+    .aboutMe img {
+        width: 75%;
     }
+    /* div.marginAuto {
+        width: 250px;
+        margin: auto;
+    } */
     .menu-wrap{
         width: 200px;
     }
@@ -172,9 +185,6 @@ section{
     .menu > button > span{
         font-size: 18px;
         padding: 20px;
-    }
-    .content-wrap{
-        padding-top: 41%;
     }
     .aboutText {
         font-size: 11px;
@@ -194,5 +204,18 @@ section{
     }
     .skill-progress {
         padding-top: 17px;
+    }
+    .content-wrap{
+        padding-top: 25%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .content-wrap{
+        padding-top: 35%;
+    }
+    div.marginAuto {
+        width: 200px;
+        margin: auto;
     }
 }

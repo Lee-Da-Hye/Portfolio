@@ -1,0 +1,22 @@
+[
+    {
+        "image": "../images/korea.png",
+        "title" : "한국에 자이"
+    },
+    {
+        
+        "image": "../images/movie.png", 
+        "title" : "영화"
+    },
+    {
+        
+        "image": "../images/camPU.png", 
+        "title" : "camPU"
+    },
+    {
+        
+        "image": "../images/kio.png", 
+        "title" : "포트폴리오"
+    }
+    
+]
