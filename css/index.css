@@ -119,15 +119,15 @@ section{
 footer{
     /*background-color: red;*/
     width: 100%;
-    height: 100px;
-    position: relative;
+    /*height: 100px;
+    position: relative;*/
 }
 .footer{
       width: 100%;
       margin: 0 auto;
       text-align: center;
       font-size: 15px;
-      position: absolute;
+      /*position: absolute;*/
       bottom: 0;
 
 }

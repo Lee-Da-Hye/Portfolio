@@ -10,9 +10,7 @@
         async function  loadDatas(){
             const response = await fetch('../data/data.json');
             const datas = await response.json(); 
-            console.log(datas[0]);
-            // ary = [...datas.data.movies];
-            // ary = datas.data.movies;
+
 
             for( let a = 0 ; a < datas.length ; a++){
                 const newData = { myId:a, ...datas[a] }
@@ -81,13 +79,61 @@
                 str += createDom( div );
             }
             worksContent.innerHTML = str; 
+
+            
+            let worksItembtns = document.querySelectorAll('.works-item button');
+            let worksModal = document.querySelectorAll('.works-md');
+            //worksItembtns.forEach(()=>{
+                    const ModalDel = document.querySelectorAll('.close');
+                    for( let a = 0; a < worksItembtns.length ; a++){
+                        //console.log( worksItembtns[a] , a ) ;
+                        worksItembtns[a].addEventListener('click', function(){
+                            console.log(a);
+                            worksModal.forEach(function(worksModal, idx ){
+                                if( idx == a ){
+                                    worksModal.classList.remove('hidden');
+                                }else{
+                                    for( let a = 0; a < ModalDel.length ; a++){
+                                    ModalDel[a].addEventListener('click', function(){
+                                        this.parentNode.classList.add('hidden');
+                                    });
+                                }
+                                }
+                            })
+                        })
+                    }
+           // })
         }
         function createDom(data){
             let str = `
                 <div class="works-item">
-                    <div><img src="${data.image}"></div>
+                    <div>
+                        <button>
+                            <img src="${data.image}">
+                        </button>
+                    </div>
                     <div>${data.title}</div>
-                   
+                </div>
+                <div class="works-md hidden">
+                            <button class="close">
+                                <i class='bx bx-x-circle'></i>
+                            </button>
+                        <div class="md_overlay"></div>
+                        <div class="md_contents">
+                            <h1>${data.title}</h1>
+
+                            <div class="md_text">
+                                <p><img src="${data.image}" alt="" /></p>
+                                <p><span>제작 기간</span><br>
+                                ${data.timeframe}</p>
+                                <p><span>프로젝트 소개</span><br>
+                                 ${data.projectIntro}</p>
+                                <p><span>링크</span><br> <a href="${data.link}">${data.link}</a></p>
+                                <p><span>Git</span><br> <a href="${data.git}">${data.git}</a></p>
+                            </div>
+                            
+                            
+                        </div>
                 </div>
             `
             return str; 
@@ -105,3 +151,5 @@
                 activeHandle(currentPage);
             }
         })
+
+        

@@ -1,22 +1,38 @@
 [
-    {
+    {   "id" : 1,
         "image": "../images/korea.png",
-        "title" : "한국에 자이"
+        "title" : "한국에 자이",
+        "timeframe": "22.11.15 ~ 22.12.21",
+        "projectIntro": "해당 사이트와 최대한 똑같이 <br>구현하고자 했습니다.",
+        "link": "https://web-eisai-1b5xkk2fld5o9v4w.gksl2.cloudtype.app/",
+        "git": "https://github.com/Lee-Da-Hye/Eisai.git"
     },
     {
-        
+        "id" : 2,
         "image": "../images/movie.png", 
-        "title" : "영화"
+        "title" : "영화",
+        "timeframe": "22.12.15 ~ 22.01.08",
+        "projectIntro": "학원 수업에서 배운 영화 openAPI, fetch 등을 <br> 사용하여 영화 사이트를 구현해보았습니다. ",
+        "link":"https://port-0-movie-po-1jx7m2gld5vellm.gksl2.cloudtype.app/",
+        "git": "https://github.com/Lee-Da-Hye/movie_po.git"
     },
     {
-        
+        "id" : 3,
         "image": "../images/camPU.png", 
-        "title" : "camPU"
+        "title" : "camPU",
+        "timeframe": "2021.06.04 ~ 2021.07.16",
+        "projectIntro": "국기과정 팀 프로젝트를 통해 팀원 세 명과 함께<br> 캠핑 추천 웹사이트를 제작했습니다.<br> 저는 프로젝트의 컨셉과 mountain, reserve <br>페이지를 담당했습니다.<br> 캠핑 추천이라는 목적에 걸맞는 디자인과, <br>또 텍스트 중심의 컨텐츠를 명확하면서도 지루하지 않게 전달하려 노력했습니다.",
+        "link": "http://campu.popol.website/",
+        "git": "X"
     },
     {
-        
+        "id" : 4,
         "image": "../images/kio.png", 
-        "title" : "포트폴리오"
+        "title" : "포트폴리오",
+        "timeframe": "22.12.09 ~ 22.01.21",
+        "projectIntro": "개인 포트폴리오 웹사이트를 제작했습니다. <br>현대사회에서 흔히 볼 수 있는 키오스크로 디자인하였습니다. <br>싱글 페이지로 구성하였으며, 깔끔하고 현대적인 인상의 디자인을 구현하려 했습니다.<br> 전체적으로 사용자의 이용이 간편할 수 있도록<br> 염두했습니다.",
+        "link": "https://web-kiosk-71psue2glcxbkx5g.gksl2.cloudtype.app/",
+        "git": "https://github.com/Lee-Da-Hye/kiosk.git"
     }
     
 ]
