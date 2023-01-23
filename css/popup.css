@@ -90,8 +90,8 @@
 }
 @media screen and (max-width: 480px) {
     .works-md {
-        top: 65%;
-        width: 280px;
+        top: 68%;
+        width: 245px;
         height: 420px;
     }
     .bx-x-circle {
@@ -99,5 +99,11 @@
     }
     .md_contents {
         width: 81%;
+    }
+    .md_contents > h1 {
+        font-size: 18px;
+    }
+    .md_text > p> span {
+        font-size: 15px;
     }
 }
