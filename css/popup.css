@@ -91,19 +91,22 @@
 @media screen and (max-width: 480px) {
     .works-md {
         top: 68%;
-        width: 245px;
-        height: 420px;
+        width: 300px;
+        height: 375px;
     }
     .bx-x-circle {
         font-size: 35px;
     }
     .md_contents {
-        width: 81%;
+        width: 90%;
     }
     .md_contents > h1 {
         font-size: 18px;
     }
     .md_text > p> span {
         font-size: 15px;
+    }
+    .md_overlay {
+        height: 100%;
     }
 }
