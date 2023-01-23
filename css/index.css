@@ -119,6 +119,8 @@ footer{
     /*background-color: red;*/
     width: 100%;
     position: relative;
+    
+    height: 140px;
 }
 .footer{
       width: 100%;
@@ -160,6 +162,9 @@ footer{
     .aboutText{
         font-size: 13px;
         padding-top: 0;
+    }
+    footer{
+        height: 110px;
     }
     .footer{
         bottom: 36px;
@@ -250,6 +255,9 @@ footer{
     div.marginAuto {
         width: 200px;
         margin: auto;
+    }
+    footer{
+        height: 55px;
     }
     .footer{
         bottom: -111px;

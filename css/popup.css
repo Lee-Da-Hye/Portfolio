@@ -90,9 +90,9 @@
 }
 @media screen and (max-width: 480px) {
     .works-md {
-        top: 67%;
-        width: 340px;
-        height: 485px;
+        top: 65%;
+        width: 320px;
+        height: 465px;
     }
     .bx-x-circle {
         font-size: 35px;
