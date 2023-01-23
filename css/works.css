@@ -115,4 +115,8 @@
     #prev, #next {
        padding-top: 0;
     }
+    .pagenation-container{ 
+        top: 99%;
+    
+    }
 }

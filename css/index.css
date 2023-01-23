@@ -241,8 +241,11 @@ footer{
 }
 
 @media screen and (max-width: 480px) {
+    .header {
+        top: 100%;
+        }
     .content-wrap{
-        padding-top: 35%;
+        padding-top: 45%;
     }
     div.marginAuto {
         width: 200px;
@@ -250,5 +253,6 @@ footer{
     }
     .footer{
         bottom: -111px;
-  }
+    }
+  
 }
