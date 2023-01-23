@@ -112,7 +112,7 @@
                             <img src="${data.image}">
                         </button>
                     </div>
-                    <div>${data.title}</div>
+                    <h3>${data.title}</h3>
                 </div>
                 <div class="works-md hidden">
                             <button class="close">

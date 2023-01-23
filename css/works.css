@@ -1,34 +1,45 @@
 .works-item{
     text-align: center;
     width: 100%;
+    padding-bottom: 25px;
 }
 .works-item > div{
-    width: 150px;
+    width: 240px;
     margin: auto;
+}
+.works-item button{
+    border: none;
+    box-shadow: 5px 5px 5px 5px rgb(147, 145, 145);
 }
 .works-item img{
     width: 100%;
     cursor: pointer;
 }
-
+.works-item > h3{
+    padding-top: 10px;
+}
 .pagenation-container{ 
     display: flex;
     position: absolute;
     left: 50%;
-    top: 105%;
+    top: 98%;
     transform: translateX(-50%);
     cursor: pointer;
+    gap: 5px;
 
 }
 .pagenation{ 
     display: flex;
+    gap: 5px;
     
 }
 .pagenation li{
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     text-align: center; 
     border: 1px solid black;
+    font-size: 20px;
+    padding-top: 4px;
 }
 .pagenation li.active{ 
     background-color: black;
@@ -37,14 +48,21 @@
 #prev, #next{
     font-size: 0;
     background-color: #fff;
-    width: 25px;
-    height: 25px;
+    width: 40px;
+    height: 40px;
     text-align: center;
     border: 1px solid #000;
+    padding-top: 10px;
 }
 .bx-left-arrow-alt,.bx-right-arrow-alt{
-    padding-top: 4px;
-    font-size: 15px;
+    
+    font-size: 20px;
+}
+@media screen and (max-width: 1707px) {
+    .works-item > div {
+        width: 150px;
+        margin: auto;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -74,5 +92,27 @@
     .bx-left-arrow-alt,.bx-right-arrow-alt{
         padding-top: 3px;
         font-size: 15px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .works-item > div{
+        width: 150px;
+        margin: auto;
+    }
+    .works-item {
+        padding-bottom: 13px;
+    }
+    .works-item > h3 {
+        font-size: 13px;
+    }
+    .pagenation li {
+        font-size: 13px;
+        padding-top: 0;
+    }
+    .bx-left-arrow-alt, .bx-right-arrow-alt {
+        font-size: 13px;
+    }
+    #prev, #next {
+       padding-top: 0;
     }
 }

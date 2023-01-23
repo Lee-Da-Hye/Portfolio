@@ -1,14 +1,15 @@
+/*skill*/
 
 .skill > h2{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     text-align: center;
   }
 .skill-progress{
     padding-top: 30px;
      display: grid;
-    width: 200px;
-    font-size: 13px;
+     width: 350px;
+     font-size: 20px;
     grid: "html"
           "css"
           "js"
@@ -24,7 +25,7 @@
     margin: 5px 0;
 }
 .level{
-    height: 30px;
+    height: 45px;
     animation-name: ani;
     animation-duration: 5s;
 }
@@ -70,6 +71,19 @@
     grid-area: photoshop;
 }
 
+@media screen and (max-width: 1707px) {
+    .skill > h2 {
+        font-size: 30px;
+    }
+    .skill-progress {
+        width: 200px;
+        font-size: 13px;
+    }
+    .level {
+        height: 30px;
+    }
+
+}
 @media screen and (max-width: 501px) {
     .skill > h2 {
         font-size: 20px;
