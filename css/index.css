@@ -109,6 +109,9 @@ section{
     text-align: justify;
     padding-top: 15px;
 }
+.aboutText > li:nth-of-type(5){
+    white-space: nowrap;
+}
 .aboutText span{
     font-weight: bold;
     font-size: 15px;
