@@ -20,7 +20,7 @@
     <section>
         <div class="container">
             <div class="header hidden">
-                <button class="goPrevPage"><i class='bx bx-arrow-back'></i></button>
+                <button class="goPrevPage" onclick="refreshPage()"><i class='bx bx-arrow-back'></i></button>
             </div>
             <!-- kiosk frame -svg- -->
             <div>
@@ -179,28 +179,32 @@
                 <div class="contact hidden">
                     <div class="all">
                             <div class="form-box">
-                                <form class="fContact" id="fContact" name="fContact">
+                                <form class="gform" id="gform" name="gform" action="https://script.google.com/macros/s/AKfycbzpZ5vD1c1txEZ4va4F-qAabJrRTuGkhKnaKMU4qL_EAZMElnc6Os2TMbKwlzWTKKPB7g/exec">
                                     <input type="hidden" name="process" value="contact" />
-                                    <input type="hidden" name="act" value="receipt" />
-                                    <input type="hidden" name="subject" value="문의드립니다." />
-                                    <input type="hidden" name="phonenumber1" value="000" />
-                                    <input type="hidden" name="phonenumber2" value="0000" />
-                                    <input type="hidden" name="phonenumber3" value="0000" />
                                     <dl>
                                         <dt>Name</dt>
                                         <dd>
-                                            <input type="text" id="writer" name="writer" class="required" title="고객명을 입력하세요." />
+                                            <input type="text" id="writer" name="writer" title="고객명을 입력하세요." required/>
+                                        </dd>
+                                        <dt>Phone</dt>
+                                        <dd>
+                                            <input type="tel" id="Phone" name="Phone" title="핸드폰 번호를 입력하세요." required/>
                                         </dd>
                                         <dt>E-Mail</dt>
                                         <dd>
-                                            <input type="text" id="email" name="email" class="required" title="이메일을 입력하세요." />
+                                            <input type="email" id="email" name="email" title="이메일을 입력하세요."required />
                                         </dd>
                                         <dt>Message</dt>
-                                        <dd><textarea id="content" name="content" class="required" title="보내실 내용을 작성해 주십시오." placeholder="send me a message"></textarea></dd>
+                                        <dd><textarea id="content" name="content"  title="보내실 내용을 작성해 주십시오." placeholder="send me a message"></textarea></dd>
                                     </dl>
                                     <div id="commandbar" class="send">
-                                        <button type="button" id="btnSend">Send</button>
+                                        <button onclick="return check();"  id="btnSend">Send</button>
                                     </div>
+                                    <div style="display:none" class="thankyou_message">
+                                        <!-- You can customize the thankyou message by editing the code below -->
+                                        <h2><em>Thanks</em> for contacting us! We will get back to you soon!
+                                        </h2>
+                                       </div>
                                 </form>
                             </div>
                 
@@ -218,5 +222,8 @@
       <!-- <script src="./js/header.js"></script> -->
       <script src="./js/goReportPage.js"></script>
       <script src="./js/works.js"></script>
+      <script data-cfasync="false" type="text/javascript" 
+      src="./js/form-submission-handler.js">
+</script>
 </body>
 </html>

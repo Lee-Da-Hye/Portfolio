@@ -33,4 +33,9 @@ goPrevPage.addEventListener('click', function () {
     hidden.forEach(hi => {
         hi.classList.add('hidden');
     })
+    
 })
+//버튼 누를 시 새로고침
+function refreshPage(){
+    window.location.reload();
+}

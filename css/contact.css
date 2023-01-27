@@ -4,14 +4,14 @@
   background: #fff;
  /*margin: 150px auto 0 auto;*/
 }
-.fContact{
+.gform{
  font-size: 20px;
  line-height: 40px;
  list-style: none;
  color:#333;
  font-weight: bold;
 }
-.fContact  > dl > dd > input{
+.gform  > dl > dd > input{
  border: none;
  border-bottom: 1px solid #424242;
  background: transparent;
@@ -26,13 +26,12 @@
  font-weight: bold;
  
 }
-.fContact > dl > dd > textarea{
+.gform > dl > dd > textarea{
   width: 100%;
-  padding-top: 50px;
-  height: 350px;
+  height: 270px;
   border: 1px solid #000;
 }
-.fContact > dl > dd > textarea::placeholder{
+.gform > dl > dd > textarea::placeholder{
  color:#333;
  text-align: center;
  padding-top: 110px;
@@ -40,7 +39,7 @@
  font-family:'PoiretOne-Regular';
  
 }
-.fContact > dl > dd >input:focus {
+.gform > dl > dd >input:focus {
   outline:none;
  } 
 .send{
@@ -57,18 +56,27 @@ font-size: 25px;
 cursor: pointer;
 font-weight: bold;
 }
-
+.thankyou_message{
+    width: 35%;
+    height: 95%;
+    background-color: #fff;
+    position: absolute;
+    top: 111px;
+}
+.thankyou_message > h2{
+  padding-top: 260px;
+}
 @media screen and (max-width: 1707px) {
   .form-box {
     width: 300px;
   }
-  .fContact {
+  .gform {
     font-size: 15px;
   }
-  .fContact > dl > dd > input {
+  .gform > dl > dd > input {
     margin-top: -2.5vh;
 }
-  .fContact > dl > dd > textarea {
+  .gform > dl > dd > textarea {
     height: 250px;
     padding-top: 0;
   }
@@ -82,17 +90,17 @@ font-weight: bold;
 .form-box{
   width: 200px;
 }
-.fContact{
+.gform{
  font-size: 11px;
 }
-.fContact > dl > dd > input {
+.gform > dl > dd > input {
 margin-top: -3.5vh;
 font-size: 11px;
 }
-.fContact > dl > dd > textarea{
+.gform > dl > dd > textarea{
  height: 200px;
 }
-.fContact > dl > dd > textarea::placeholder{
+.gform > dl > dd > textarea::placeholder{
 padding-top: 90px;
 font-size: 13px;
 }

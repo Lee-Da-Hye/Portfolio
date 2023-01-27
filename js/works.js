@@ -8,7 +8,7 @@
         let  pagenation = document.querySelector('.pagenation');
         let  lists;
         async function  loadDatas(){
-            const response = await fetch('../data/data.json');
+            const response = await fetch('./data/data.json');
             const datas = await response.json(); 
 
 
