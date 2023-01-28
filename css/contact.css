@@ -57,14 +57,15 @@ cursor: pointer;
 font-weight: bold;
 }
 .thankyou_message{
-    width: 35%;
-    height: 95%;
+    width: 350px;
+    height: 83%;
     background-color: #fff;
     position: absolute;
     top: 111px;
 }
 .thankyou_message > h2{
   padding-top: 260px;
+  text-align: center;
 }
 @media screen and (max-width: 1707px) {
   .form-box {
@@ -75,7 +76,7 @@ font-weight: bold;
   }
   .gform > dl > dd > input {
     margin-top: -2.5vh;
-}
+  }
   .gform > dl > dd > textarea {
     height: 250px;
     padding-top: 0;
@@ -84,7 +85,20 @@ font-weight: bold;
     width: 150px;
     height: 50px;
     font-size: 20px;
+  }
+.thankyou_message {
+  width: 300px;
+  height: 83%;
+  }
+.thankyou_message > h2 {
+  padding-top: 170px;
+  }
 }
+@media screen and (max-width: 694px) {
+.thankyou_message {
+    top: 100px;
+    height: 88%;
+  }
 }
 @media screen and (max-width: 501px) {
 .form-box{
@@ -108,5 +122,11 @@ font-size: 13px;
 width: 92px;
 height: 30px;
 font-size: 12px;
+}
+.thankyou_message {
+  height: 75%;
+    top: 150px;
+    left: 62px;
+
 }
 }
