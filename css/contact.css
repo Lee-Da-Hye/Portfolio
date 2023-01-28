@@ -56,13 +56,16 @@ text-align: center;
   cursor: pointer;
   font-weight: bold;
 }
-.thankyou_message{
-    width: 350px;
-    margin: auto;
-    height: 83%;
-    background-color: #fff;
-    position: absolute;
-    top: 111px;
+.thankyou_message {
+  width: 430px;
+  margin: auto;
+  height: 83%;
+  background-color: #fff;
+  position: absolute;
+  top: 59%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-top: 20%;
 }
 .thankyou_message > h2{
   text-align: center;
@@ -93,15 +96,6 @@ text-align: center;
   width: 300px;
   height: 83%;
   }
-.thankyou_message > h2 {
-  padding-top: 170px;
-  }
-}
-@media screen and (max-width: 694px) {
-.thankyou_message {
-    top: 100px;
-    height: 88%;
-  }
 }
 @media screen and (max-width: 501px) {
 .form-box{
@@ -127,20 +121,18 @@ text-align: center;
   font-size: 12px;
 }
 .thankyou_message {
-    height: 75%;
-    top: 150px;
-    left: 62px;
+  top: 74%;
   }
 }
 @media screen and (max-width: 480px) {
-  .thankyou_message {
-    width: 220px;
-    top: 170px;
-    left: 91px;
-  }
   .thankyou_message > h2 {
-    padding-top: 145px;
+    padding-top: 50px;
     font-size: 13px;
   }
 
 }
+
+
+
+
+
