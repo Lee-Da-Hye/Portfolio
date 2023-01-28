@@ -134,9 +134,9 @@ font-size: 12px;
 }
 @media screen and (max-width: 480px) {
   .thankyou_message {
-    width: 200px;
-    top: 136px;
-    left: 120px;
+    width: 210px;
+    top: 170px;
+    left: 91px;
   }
   .thankyou_message > h2 {
     padding-top: 145px;
