@@ -60,7 +60,7 @@ text-align: center;
   width: 430px;
   margin: auto;
   height: 83%;
-  background-color: #fff;
+  background-color: rgb(241, 167, 167);
   position: absolute;
   top: 59%;
   left: 50%;
@@ -129,6 +129,10 @@ text-align: center;
     padding-top: 50px;
     font-size: 13px;
   }
+  .thankyou_message {
+    width: 265px;
+    height: 83%;
+}
 
 }
 
