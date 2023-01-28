@@ -124,9 +124,15 @@ height: 30px;
 font-size: 12px;
 }
 .thankyou_message {
-  height: 75%;
+    height: 75%;
     top: 150px;
     left: 62px;
-
+  }
 }
+@media screen and (max-width: 480px) {
+  .thankyou_message {
+    top: 145px;
+    left: 55px;
+  }
+
 }
