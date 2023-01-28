@@ -46,15 +46,15 @@
 text-align: center;
 }
 .send > button{
-background: #efefef;
-border: none;
-width: 200px;
-height: 60px;
-color: gray;
-line-height: 0;
-font-size: 25px;
-cursor: pointer;
-font-weight: bold;
+  background: #efefef;
+  border: none;
+  width: 200px;
+  height: 60px;
+  color: gray;
+  line-height: 0;
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: bold;
 }
 .thankyou_message{
     width: 350px;
@@ -111,20 +111,20 @@ font-weight: bold;
  font-size: 11px;
 }
 .gform > dl > dd > input {
-margin-top: -3.5vh;
-font-size: 11px;
+  margin-top: -3.5vh;
+  font-size: 11px;
 }
 .gform > dl > dd > textarea{
  height: 120px;
 }
 .gform > dl > dd > textarea::placeholder{
-padding-top: 50px;
-font-size: 13px;
+  padding-top: 50px;
+  font-size: 13px;
 }
 .send > button {
-width: 92px;
-height: 30px;
-font-size: 12px;
+  width: 92px;
+  height: 30px;
+  font-size: 12px;
 }
 .thankyou_message {
     height: 75%;
@@ -134,7 +134,7 @@ font-size: 12px;
 }
 @media screen and (max-width: 480px) {
   .thankyou_message {
-    width: 210px;
+    width: 220px;
     top: 170px;
     left: 91px;
   }
