@@ -58,13 +58,13 @@ font-weight: bold;
 }
 .thankyou_message{
     width: 350px;
+    margin: auto;
     height: 83%;
     background-color: #fff;
     position: absolute;
     top: 111px;
 }
 .thankyou_message > h2{
-  padding-top: 260px;
   text-align: center;
 }
 @media screen and (max-width: 1707px) {
@@ -78,9 +78,12 @@ font-weight: bold;
     margin-top: -2.5vh;
   }
   .gform > dl > dd > textarea {
-    height: 250px;
+    height: 200px;
     padding-top: 0;
   }
+  .gform > dl > dd > textarea::placeholder{
+    padding-top: 80px;
+   }
   .send > button {
     width: 150px;
     height: 50px;
@@ -112,10 +115,10 @@ margin-top: -3.5vh;
 font-size: 11px;
 }
 .gform > dl > dd > textarea{
- height: 200px;
+ height: 150px;
 }
 .gform > dl > dd > textarea::placeholder{
-padding-top: 90px;
+padding-top: 60px;
 font-size: 13px;
 }
 .send > button {
@@ -131,8 +134,13 @@ font-size: 12px;
 }
 @media screen and (max-width: 480px) {
   .thankyou_message {
-    top: 145px;
-    left: 55px;
+    width: 200px;
+    top: 136px;
+    left: 120px;
+  }
+  .thankyou_message > h2 {
+    padding-top: 145px;
+    font-size: 13px;
   }
 
 }
