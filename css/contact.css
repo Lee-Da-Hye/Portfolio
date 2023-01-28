@@ -60,7 +60,7 @@ font-weight: bold;
     width: 350px;
     margin: auto;
     height: 83%;
-    background-color: #fff;
+    background-color: rgb(230, 115, 115);
     position: absolute;
     top: 111px;
 }
@@ -115,10 +115,10 @@ margin-top: -3.5vh;
 font-size: 11px;
 }
 .gform > dl > dd > textarea{
- height: 150px;
+ height: 120px;
 }
 .gform > dl > dd > textarea::placeholder{
-padding-top: 60px;
+padding-top: 50px;
 font-size: 13px;
 }
 .send > button {
