@@ -18,6 +18,10 @@
 
 📌 돌아가기 버튼을 눌렀을 때 새로고침 될 수 있도록 함.
 
+# 링크
+
+https://web-kiosk-71psue2glcxbkx5g.gksl2.cloudtype.app/
+
 # 참고사이트
 
 
