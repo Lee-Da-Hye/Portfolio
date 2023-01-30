@@ -21,13 +21,13 @@
 
             calculator();
             pagenationHandle(); 
-            activeHandle(1); // 맨처음 오류
+            activeHandle(1); 
             repeatDom();   
         }
         loadDatas();
 
         function calculator(){
-            pagers = Math.ceil(ary.length / pagePerCount); 
+            pagers = Math.ceil(ary.length / pagePerCount); //4/2
             startIndex = (currentPage - 1) * pagePerCount;
             endIndex =  currentPage * pagePerCount; 
         }
@@ -53,9 +53,6 @@
         }
 
         function activeHandle(num){
-            //if( currentPage === 0  ) prev.style.display = "none";
-            //if( currentPage > 0 ) prev.style.display = "block";
-            // 보임 숨김을 이용해서 오류 발생 차단
 
             lists.forEach( list=> list.classList.remove('active'));
 
@@ -72,7 +69,7 @@
         repeatDom(); 
         function repeatDom(){
             const viewDiv = ary.slice(startIndex, endIndex);
-           // console.log( viewTr );
+            console.log( viewDiv );
            worksContent.innerHTML = '';
             let str = '';
             for( div of viewDiv ){
@@ -81,29 +78,28 @@
             worksContent.innerHTML = str; 
 
             
+            //열고 닫기
             let worksItembtns = document.querySelectorAll('.works-item button');
             let worksModal = document.querySelectorAll('.works-md');
-            //worksItembtns.forEach(()=>{
-                    const ModalDel = document.querySelectorAll('.close');
-                    for( let a = 0; a < worksItembtns.length ; a++){
-                        //console.log( worksItembtns[a] , a ) ;
-                        worksItembtns[a].addEventListener('click', function(){
-                            console.log(a);
-                            worksModal.forEach(function(worksModal, idx ){
-                                if( idx == a ){
-                                    worksModal.classList.remove('hidden');
-                                }else{
-                                    for( let a = 0; a < ModalDel.length ; a++){
-                                    ModalDel[a].addEventListener('click', function(){
-                                        this.parentNode.classList.add('hidden');
-                                    });
-                                }
-                                }
-                            })
+            const ModalDel = document.querySelectorAll('.close');
+                for( let a = 0; a < worksItembtns.length ; a++){
+                    
+                    worksItembtns[a].addEventListener('click', function(){
+                        console.log(a);
+                        worksModal.forEach(function(worksModal, idx ){
+                            if( idx == a ){
+                                worksModal.classList.remove('hidden');
+                            }else{
+                                for( let a = 0; a < ModalDel.length ; a++){
+                                ModalDel[a].addEventListener('click', function(){
+                                    this.parentNode.classList.add('hidden');
+                                });
+                            }
+                            }
                         })
-                    }
-           // })
-        }
+                    })
+                }
+            }
         function createDom(data){
             let str = `
                 <div class="works-item">
