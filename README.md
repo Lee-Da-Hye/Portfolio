@@ -1,5 +1,5 @@
 # portfolio
-![header](https://user-images.githubusercontent.com/102526230/215325354-b4d0cc34-8cf3-40a2-a75f-501139f5fbae.png)
+<div align ="center"> <img src = "https://user-images.githubusercontent.com/102526230/215325354-b4d0cc34-8cf3-40a2-a75f-501139f5fbae.png" /> </div>
 
 # 제작 기간
 
