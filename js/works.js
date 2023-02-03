@@ -105,7 +105,7 @@
                 <div class="works-item">
                     <div>
                         <button>
-                            <img src="${data.image}">
+                            <img src="${data.image}" alt="${data.title}">
                         </button>
                     </div>
                     <h3>${data.title}</h3>
@@ -119,7 +119,7 @@
                             <h1>${data.title}</h1>
 
                             <div class="md_text">
-                                <p><img src="${data.image}" alt="" /></p>
+                                <p><img src="${data.image}" alt="${data.title}" /></p>
                                 <p><span>제작 기간</span><br>
                                 ${data.timeframe}</p>
                                 <p><span>프로젝트 소개</span><br>
