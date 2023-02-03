@@ -31,14 +31,22 @@
   height: 270px;
   border: 1px solid #000;
 }
-.gform > dl > dd > textarea::placeholder{
- color:#333;
- text-align: center;
- padding-top: 110px;
- font-size: 20px;
- font-family:'PoiretOne-Regular';
+
+.gform > dl > dd > textarea::-webkit-input-placeholder{
+  color:#333;
+  text-align: center;
+  padding-top: 110px;
+  font-size: 20px;
+  font-family:'PoiretOne-Regular';
+ }
  
-}
+ .gform > dl > dd > textarea::-moz-placeholder{
+  color:#333;
+  text-align: center;
+  padding-top: ;
+  font-size: 20px;
+  font-family:'PoiretOne-Regular';
+ }
 .gform > dl > dd >input:focus {
   outline:none;
  } 
@@ -84,8 +92,15 @@ text-align: center;
     height: 200px;
     padding-top: 0;
   }
-  .gform > dl > dd > textarea::placeholder{
+  .gform > dl > dd > textarea::-webkit-input-placeholder{
     padding-top: 80px;
+   }
+   .gform > dl > dd > textarea::-moz-placeholder{
+    color:#333;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    font-family:'PoiretOne-Regular';
    }
   .send > button {
     width: 150px;

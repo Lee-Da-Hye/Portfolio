@@ -261,7 +261,7 @@ footer{
         margin: auto;
     }
     footer{
-        height: 55px;
+        height: 0;
     }
     .footer{
         bottom: -111px;
