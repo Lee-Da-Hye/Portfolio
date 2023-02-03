@@ -20,7 +20,7 @@
 
 # 링크
 
-https://web-kiosk-71psue2glcxbkx5g.gksl2.cloudtype.app/
+https://web-portfolio-sop272gldox7z77.gksl2.cloudtype.app/
 
 # 참고사이트
 
