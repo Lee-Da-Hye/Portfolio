@@ -1,5 +1,3 @@
-
-
 // 주메뉴로 이동하는 방법 
 const menuWrapBtns = document.querySelectorAll('.menu-wrap button');
 menuWrapBtns.forEach(btn => btn.addEventListener('click', function (e) {
