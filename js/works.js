@@ -124,8 +124,8 @@ function createDom(data){
                         ${data.timeframe}</p>
                         <p><span>프로젝트 소개</span><br>
                             ${data.projectIntro}</p>
-                        <p><span>링크</span><br> <a href="${data.link}" target="_blank">${data.link}</a></p>
-                        <p><span>Git</span><br> <a href="${data.git}">${data.git}</a></p>
+                        <p><span>링크</span><br> <a class="link" href="${data.link}" target="_blank">${data.link}</a></p>
+                        <p><span>Git</span><br> <a class="link" href="${data.git}">${data.git}</a></p>
                     </div>
                     
                     
