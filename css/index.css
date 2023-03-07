@@ -102,7 +102,7 @@ section{
 }
 
 .aboutMe img{
-    width: 100%;
+    width: 50%;
 }
 .aboutText{
     font-size: 15px;
@@ -161,7 +161,7 @@ footer{
         padding-top: 15%;
     }
     .aboutMe img {
-        width: 85%;
+        width: 50%;
     }
     .aboutText{
         font-size: 13px;
