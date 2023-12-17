@@ -20,7 +20,7 @@
 
 # 링크
 
-https://soft-capybara-d9f2c6.netlify.app/
+https://leedahye.netlify.app/
 
 # 참고사이트
 
