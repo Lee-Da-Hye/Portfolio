@@ -20,7 +20,7 @@
 
 # 링크
 
-https://web-portfolio-sop272gldox7z77.gksl2.cloudtype.app/
+https://soft-capybara-d9f2c6.netlify.app/
 
 # 참고사이트
 
